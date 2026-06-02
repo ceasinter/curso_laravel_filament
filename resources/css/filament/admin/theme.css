@@ -1,0 +1,10 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+.fi-main-ctn {
+    @apply bg-slate-100; /* Tu color de Tailwind para modo claro */
+}
+
+.dark .fi-main-ctn {
+    @apply bg-slate-900; /* Tu color de Tailwind para modo oscuro */
+}
+

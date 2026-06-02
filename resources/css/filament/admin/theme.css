@@ -1,10 +1,24 @@
 @import '../../../../vendor/filament/filament/resources/css/theme.css';
 
+/* 🎨 Configuración de la paleta de colores (Enfoque CSS moderno) */
+@theme {
+    --color-mi-color-personalizado-50: #f0f9ff;
+    --color-mi-color-personalizado-100: #e0f2fe;
+    --color-mi-color-personalizado-500: #0284c7; /* Color principal */
+    --color-mi-color-personalizado-600: #0369a1;
+    --color-mi-color-personalizado-900: #0c4a6e;
+    
+    --color-fondo-claro: #f4f4f5;
+    --color-fondo-oscuro: #09090b;
+}
+
+/* 🏢 Aplicación del diseño al fondo del Dashboard */
 .fi-main-ctn {
-    @apply bg-slate-100; /* Tu color de Tailwind para modo claro */
+    @apply bg-fondo-claro;
 }
 
 .dark .fi-main-ctn {
-    @apply bg-slate-900; /* Tu color de Tailwind para modo oscuro */
+    @apply bg-fondo-oscuro;
 }
+
 
